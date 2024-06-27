@@ -1,0 +1,42 @@
+body{
+  height: auto;
+}
+
+#home{
+  height: 100vh;
+  background-image:linear-gradient( rgba(255,0,0,0), rgba(0, 0, 0, 0.938)), url('https://cdn.pixabay.com/photo/2021/12/11/07/59/hotel-6862159_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#book{
+  height: auto;
+  background-image:linear-gradient( rgba(255,0,0,0), rgba(0, 0, 0, 0.938)), url('https://cdn.pixabay.com/photo/2021/02/03/00/10/receptionists-5975962_1280.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text h1{
+  font-size: 60px;
+}
+
+.addedpost{
+  width: 960px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#addedroom{
+  width: 320px;
+}
+
+#blogpage{
+  height: 100vh;
+  background-color: black;
+}
+
+#addbox{
+  box-shadow: 0px 0px 10px 0.1px #746f6f;
+}
+
